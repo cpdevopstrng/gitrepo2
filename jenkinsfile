@@ -6,6 +6,7 @@ pipeline {
             steps {
                 echo 'build successful'
             }
+        }
         stage('PublishStage') {
             steps {
                 echo 'Publish successful'
@@ -13,4 +14,4 @@ pipeline {
         }
     }
 }
-}
+
